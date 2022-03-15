@@ -7,7 +7,15 @@ tags: ["typesetting"]
 ---
 
 A summary of how I added simple mathjax support to Hugo.
-After this, you can render maths easily by including it between code ticks `'$<maths>$'`
+After this, you can render maths easily by including it between code ticks `'$<maths>$'`, e.g.:
+
+Hi `$z = x + y$`.
+
+`$$a^2 + b^2 = c^2$$`
+
+`$$\begin{vmatrix}a & b\\
+c & d
+\end{vmatrix}=ad-bc$$`
 
 ## Tools
 
